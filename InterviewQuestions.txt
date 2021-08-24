@@ -18,3 +18,17 @@ L&T:
       struct st *sVar = (struct st*)calloc(1,sizeof(struct st));
       sVar->a;
       sVar->b = (int *) calloc (1,sizeof(int));
+
+
+Comcast:
+
+1)  How many processes will be created?
+    fork()
+    fork()
+    fork()
+   Ans: 2^N process will be created( 2^N - 1 process will be child and 1 paraent perocess)
+   
+2) Difference in thread and process?
+  thread: Segment of a process
+  procee: Progeam execeution
+    
