@@ -1,0 +1,20 @@
+L&T:
+1) Project explanantion.
+2) What is void pointer.
+  assign an integer address to void pointer and print it.
+3) How can you access the structure pointer memeber variable.
+  struct st
+  {
+    int a;
+    int *b;
+  };
+  Ans: struct st sVar;
+      
+      sVar.a;
+      int a = 5;
+      sVar.b = (int *) calloc(1, sizeof(int));
+      printf("%d\n",*(sVar.b));
+      
+      struct st *sVar = (struct st*)calloc(1,sizeof(struct st));
+      sVar->a;
+      sVar->b = (int *) calloc (1,sizeof(int));
