@@ -16,7 +16,7 @@ void cutommalloc(int size, void **ptr)
 int main()
 {
     int *ptr;
-    cutommalloc(5, (void *)&ptr);
+    cutommalloc(5 * sizeof(int), (void *)&ptr);
     printf("address custom allocated %p\n", ptr);
 
     return 0;
